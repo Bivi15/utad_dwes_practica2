@@ -1,0 +1,7 @@
+[2026-01-07 11:29:32] [APP] INFO: [MongoDB Config] Conexión con la base de datos inicializada con éxito.
+[2026-01-07 11:29:33] [METEO] INFO: Usuario creado
+[2026-01-07 11:29:33] [METEO] INFO: Sonda creada
+[2026-01-07 11:29:33] [METEO] INFO: Medición de humedad creada
+[2026-01-07 11:29:34] [METEO] INFO: Listado de datos de humedad obtenido
+[2026-01-07 11:29:34] [METEO] INFO: Medición de humedad actualizada
+[2026-01-07 11:29:34] [METEO] WARN: Medición de humedad eliminada lógicamente

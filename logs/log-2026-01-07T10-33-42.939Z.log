@@ -1,0 +1,4 @@
+[2026-01-07 11:33:42] [APP] INFO: Swagger disponible en /api-docs
+[2026-01-07 11:33:42] [APP] INFO: Rutas montadas en /api/v1
+[2026-01-07 11:33:43] [APP] INFO: [MongoDB Config] Conexión con la base de datos inicializada con éxito.
+[2026-01-07 11:33:43] [APP] INFO: Servidor escuchando en el puerto 3000

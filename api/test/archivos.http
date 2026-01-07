@@ -1,0 +1,39 @@
+#Define JWT manualmente
+@JWT = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTVkMWY2ZmE4OWRlZDNmNzBlZWQwMmQiLCJpYXQiOjE3Njc3MTIwMjIsImV4cCI6MTc2NzcxOTIyMn0.MCoxHykaPyGCST3VZEfad-wLkiAkUXEYXEGFtlAEROY
+
+GET http://localhost:3000/api/v1/archivos HTTP/1.1
+Authorization: Bearer {{JWT}}
+
+###
+GET http://localhost:3000/api/v1/archivos/695d261f5c99bd0c7208b9db HTTP/1.1
+Authorization: Bearer {{JWT}}
+
+###
+POST http://localhost:3000/api/v1/archivos HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{JWT}}
+
+{
+    "sonda": "695d26235c99bd0c7208b9de",
+    "localizacion": "Madrid",
+    "urlImagen": "http://ejemplo.com/foto.jpg",
+    "fechaCaptura": "2025-11-02T15:30:00.000Z"
+}
+
+###
+PUT http://localhost:3000/api/v1/archivos/695d261f5c99bd0c7208b9db HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{JWT}}
+
+{
+    "sonda": "695d261f5c99bd0c7208b9db",
+    "localizacion": "Sevilla",
+    "urlImagen": "http://ejemplo.com/foto2.jpg",
+    "fechaCaptura": "2025-11-02T10:00:00.000Z"
+}
+
+###
+DELETE http://localhost:3000/api/v1/archivos/695d261f5c99bd0c7208b9db HTTP/1.1
+Authorization: Bearer {{JWT}}
+
+###

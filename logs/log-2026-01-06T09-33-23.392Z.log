@@ -1,0 +1,3 @@
+[2026-01-06 10:33:23] [APP] INFO: Swagger disponible en /api-docs
+[2026-01-06 10:33:23] [APP] INFO: Rutas montadas en /api/v1
+[2026-01-06 10:33:53] [APP] ERROR: [MongoDB Config] No se ha podido establecer conexión con la base de datos, error:MongooseServerSelectionError: Server selection timed out after 30000 ms

@@ -1,0 +1,5 @@
+[2026-01-06 15:11:57] [APP] INFO: Swagger disponible en /api-docs
+[2026-01-06 15:11:57] [APP] INFO: Rutas montadas en /api/v1
+[2026-01-06 15:11:58] [APP] INFO: [MongoDB Config] Conexión con la base de datos inicializada con éxito.
+[2026-01-06 15:11:58] [APP] INFO: Servidor escuchando en el puerto 3000
+[2026-01-06 15:38:23] [APP] ERROR: [POST] /api/v1/usuarios/login - Illegal arguments: string, undefined

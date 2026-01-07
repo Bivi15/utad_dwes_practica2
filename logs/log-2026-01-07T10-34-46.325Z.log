@@ -1,0 +1,7 @@
+[2026-01-07 11:34:46] [APP] INFO: [MongoDB Config] Conexión con la base de datos inicializada con éxito.
+[2026-01-07 11:34:48] [METEO] INFO: Usuario creado
+[2026-01-07 11:34:48] [METEO] INFO: Sonda creada
+[2026-01-07 11:34:48] [METEO] INFO: Medición de precipitación creada
+[2026-01-07 11:34:48] [METEO] INFO: Listado de datos de precipitación obtenido
+[2026-01-07 11:34:48] [METEO] INFO: Medición de precipitación actualizada
+[2026-01-07 11:34:48] [METEO] WARN: Medición de precipitación eliminada lógicamente

@@ -1,0 +1,48 @@
+#Define JWT manualmente
+@JWT = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OTVkMWY2ZmE4OWRlZDNmNzBlZWQwMmQiLCJpYXQiOjE3Njc3MTIwMjIsImV4cCI6MTc2NzcxOTIyMn0.MCoxHykaPyGCST3VZEfad-wLkiAkUXEYXEGFtlAEROY
+GET http://localhost:3000/api/v1/datosAvanzados HTTP/1.1
+Authorization: Bearer {{JWT}}
+
+###
+
+GET http://localhost:3000/api/v1/datosAvanzados/stats HTTP/1.1
+Authorization: Bearer {{JWT}}
+
+###
+
+GET http://localhost:3000/api/v1/datosAvanzados/6907c90bfabf4e99baf43561 HTTP/1.1
+Authorization: Bearer {{JWT}}
+
+###
+POST http://localhost:3000/api/v1/datosAvanzados HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{JWT}}
+
+{
+    "presion": 76,
+    "indiceUV": 9,
+    "indicePolen": 65,
+    "sonda": "695d261f5c99bd0c7208b9db",
+    "fechaMedicion": "2025-11-02",
+    "horaMedicion": "13:59"
+}
+
+###
+PUT http://localhost:3000/api/v1/datosAvanzados/6907c90bfabf4e99baf43561 HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer {{JWT}}
+
+{
+    "presion": "50",
+    "indiceUV": "3",
+    "indicePolen": "57",
+    "sonda": "695d261f5c99bd0c7208b9db",
+    "fechaMedicion": "2025-10-02",
+    "horaMedicion": "17:00"
+}
+
+###
+DELETE http://localhost:3000/api/v1/datosAvanzados/6907c90bfabf4e99baf43561 HTTP/1.1
+Authorization: Bearer {{JWT}}
+
+###

@@ -1,0 +1,6 @@
+[2026-01-07 01:10:52] [JWT] ERROR: [handleJWT] verifyToken: jwt malformed
+[2026-01-07 01:10:52] [JWT] WARN: [handleJWT] Token inválido
+[2026-01-07 01:10:52] [JWT] ERROR: [handleJWT] verifyToken: jwt malformed
+[2026-01-07 01:10:52] [JWT] WARN: [handleJWT] Token inválido
+[2026-01-07 01:10:52] [JWT] ERROR: [handleJWT] verifyToken: jwt malformed
+[2026-01-07 01:10:52] [JWT] WARN: [handleJWT] Token inválido

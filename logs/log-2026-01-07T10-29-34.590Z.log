@@ -1,0 +1,7 @@
+[2026-01-07 11:29:35] [APP] INFO: [MongoDB Config] Conexión con la base de datos inicializada con éxito.
+[2026-01-07 11:29:36] [METEO] INFO: Usuario creado
+[2026-01-07 11:29:36] [METEO] INFO: Sonda creada
+[2026-01-07 11:29:36] [METEO] INFO: Dato avanzado creado
+[2026-01-07 11:29:36] [METEO] INFO: Listado de datos avanzados obtenido
+[2026-01-07 11:29:37] [METEO] INFO: Dato avanzado actualizado
+[2026-01-07 11:29:37] [METEO] WARN: Dato avanzado eliminado lógicamente

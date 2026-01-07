@@ -1,0 +1,4 @@
+[2026-01-07 02:35:20] [APP] INFO: [MongoDB Config] Conexión con la base de datos inicializada con éxito.
+[2026-01-07 02:35:20] [APP] INFO: [MongoDB Config] Conexión con la base de datos inicializada con éxito.
+[2026-01-07 02:35:21] [JWT] ERROR: [handleJWT] verifyToken: jwt malformed
+[2026-01-07 02:35:21] [JWT] WARN: [handleJWT] Token inválido

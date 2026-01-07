@@ -1,0 +1,5 @@
+[2026-01-06 16:06:31] [APP] INFO: Swagger disponible en /api-docs
+[2026-01-06 16:06:31] [APP] INFO: Rutas montadas en /api/v1
+[2026-01-06 16:06:32] [APP] INFO: [MongoDB Config] Conexión con la base de datos inicializada con éxito.
+[2026-01-06 16:06:32] [APP] INFO: Servidor escuchando en el puerto 3000
+[2026-01-06 16:08:38] [APP] ERROR: [PUT] /api/v1/usuarios/695d18285cd3aa744e2366ae - Plan executor error during findAndModify :: caused by :: E11000 duplicate key error collection: test.usuarios index: email_1 dup key: { email: "admin2@test.com" }
